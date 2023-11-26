@@ -41,9 +41,32 @@ article {
   padding: 20px 16px;
 }
 
+.subtitle {
+  margin: 0 0 30px;
+  text-align: center;
+}
+
 .pickup {
   padding-top: 150px;
   margin-bottom: 60px;
+}
+
+.author {
+  margin: 0 0 60px;
+  text-align: center;
+}
+
+.author img {
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  margin: 0 0 30px;
+}
+
+.author p {
+  font-size: 0.875rem;
+  margin: 0;
+  text-align: left;
 }
 
 #header {
