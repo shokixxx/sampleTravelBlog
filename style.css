@@ -92,13 +92,13 @@ article {
   text-decoration: none;
 }
 
-.archive ul {
+.border-list ul {
   border-bottom: solid 1px #777;
   padding: 0;
   margin: 0;
 }
 
-.archive li {
+.border-list li {
   border-top: solid 1px #777;
   font-size: 0.875rem;
   padding: 20px;
@@ -172,24 +172,27 @@ article {
   padding: 0;
 }
 
-#footer li {
-  font-size: 0.825rem;
-  margin-bottom: 5px;
-}
-
-#footer ul li::before {
-  /* 右三角形の Unicode 文字 */
-  content: '\25B6';
-  margin-right: 3px;
-}
-
-#footer .about {
-  padding-top: 50px;
+#footer .footer-content {
   margin-bottom: 50px;
 }
 
 #footer .footer-title {
   margin: 0 0 30px;
+}
+
+#footer .about {
+  padding-top: 50px;
+}
+
+#footer .about li {
+  font-size: 0.825rem;
+  margin-bottom: 5px;
+}
+
+#footer .about ul li::before {
+  /* 右三角形の Unicode 文字 */
+  content: '\25B6';
+  margin-right: 3px;
 }
 
 @media (min-width: 767px) {
