@@ -83,6 +83,28 @@ article {
   margin: 0;
 }
 
+.archive {
+  margin-bottom: 60px;
+}
+
+.archive a {
+  color: #333;
+  text-decoration: none;
+}
+
+.archive ul {
+  border-bottom: solid 1px #777;
+  padding: 0;
+  margin: 0;
+}
+
+.archive li {
+  border-top: solid 1px #777;
+  font-size: 0.875rem;
+  padding: 20px;
+  text-align: left;
+}
+
 #header {
   background-color: #fff;
   width: 100%;
