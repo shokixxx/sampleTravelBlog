@@ -84,7 +84,7 @@ article {
 }
 
 .archive {
-  margin-bottom: 60px;
+  margin-bottom: 120px;
 }
 
 .archive a {
@@ -152,6 +152,44 @@ article {
 #main p {
   padding: 10px 40px 30px;
   margin: 0;
+}
+
+#footer {
+  background-color: #f7f7f7;
+}
+
+#footer a {
+  color: #333;
+  text-decoration: none;
+}
+
+#footer p {
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+#footer ul {
+  padding: 0;
+}
+
+#footer li {
+  font-size: 0.825rem;
+  margin-bottom: 5px;
+}
+
+#footer ul li::before {
+  /* 右三角形の Unicode 文字 */
+  content: '\25B6';
+  margin-right: 3px;
+}
+
+#footer .about {
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+#footer .footer-title {
+  margin: 0 0 30px;
 }
 
 @media (min-width: 767px) {
