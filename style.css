@@ -195,6 +195,12 @@ article {
   margin-right: 3px;
 }
 
+#footer .copyright {
+  font-size: 0.75rem;
+  padding: 10px 0;
+  text-align: center;
+}
+
 @media (min-width: 767px) {
   .pickup {
     display: flex;
