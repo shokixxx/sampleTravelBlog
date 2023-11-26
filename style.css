@@ -18,6 +18,10 @@ ul {
   list-style-type: none;
 }
 
+article {
+  margin-bottom: 30px;
+}
+
 .readmore {
   font-size: 0.875rem;
   text-align: center;
@@ -40,10 +44,6 @@ ul {
 .pickup {
   padding-top: 150px;
   margin-bottom: 60px;
-}
-
-.pickup article {
-  margin-bottom: 30px;
 }
 
 #header {
@@ -72,6 +72,27 @@ ul {
 #navi li {
   font-size: 0.875rem;
   padding: 10px 60px 10px 0;
+}
+
+#main .content {
+  color: #333;
+  text-decoration: none;
+}
+
+#main ul {
+  display: flex;
+  padding: 0 0 10px;
+  margin: 0;
+}
+
+#main li {
+  font-size: 0.875rem;
+  margin-right: 10px;
+}
+
+#main p {
+  padding: 10px 40px 30px;
+  margin: 0;
 }
 
 @media (min-width: 767px) {
