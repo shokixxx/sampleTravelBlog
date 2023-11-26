@@ -10,12 +10,21 @@ body {
   font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
 }
 
-a {
-  text-decoration: none;
+img {
+  max-width: 100%;
 }
 
-li {
-  list-style: none;
+ul {
+  list-style-type: none;
+}
+
+.readmore {
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+.readmore a {
+  color: #333;
 }
 
 .wrapper {
@@ -28,9 +37,24 @@ li {
   padding: 20px 16px;
 }
 
+.pickup {
+  padding-top: 150px;
+  margin-bottom: 60px;
+}
+
+.pickup article {
+  margin-bottom: 30px;
+}
+
 #header {
+  background-color: #fff;
   width: 100%;
   position: fixed;
+  z-index: 10;
+}
+
+#header a {
+  text-decoration: none;
 }
 
 #navi {
@@ -48,4 +72,15 @@ li {
 #navi li {
   font-size: 0.875rem;
   padding: 10px 60px 10px 0;
+}
+
+@media (min-width: 767px) {
+  .pickup {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .pickup article {
+    width: 32%;
+  }
 }
