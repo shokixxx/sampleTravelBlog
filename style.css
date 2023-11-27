@@ -172,16 +172,16 @@ article {
   padding: 0;
 }
 
+#footer .footer-flex-container {
+  padding-top: 50px;
+}
+
 #footer .footer-content {
   margin-bottom: 50px;
 }
 
 #footer .footer-title {
   margin: 0 0 30px;
-}
-
-#footer .about {
-  padding-top: 50px;
 }
 
 #footer .about li {
@@ -225,5 +225,15 @@ article {
   }
   #sidebar {
     width: 32%;
+  }
+  #footer .footer-flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #footer .about,
+  #footer .menu,
+  #footer .footer-content {
+    width: 30%;
   }
 }
