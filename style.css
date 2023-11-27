@@ -195,6 +195,10 @@ article {
   margin-right: 3px;
 }
 
+#footer .menu li {
+  padding: 15px;
+}
+
 #footer .copyright {
   font-size: 0.75rem;
   padding: 10px 0;
