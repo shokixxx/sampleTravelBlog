@@ -118,6 +118,7 @@ article {
 
 #navi {
   background-color: #333;
+  overflow-x: scroll;
 }
 
 #navi ul {
