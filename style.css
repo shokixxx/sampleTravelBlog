@@ -207,7 +207,7 @@ article {
   text-align: center;
 }
 
-@media (min-width: 767px) {
+@media (width >= 767px) {
   .pickup {
     display: flex;
     justify-content: space-between;
