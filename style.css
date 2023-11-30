@@ -31,6 +31,11 @@ article {
   color: #333;
 }
 
+.readmore a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
 .wrapper {
   max-width: 1200px;
   padding: 0 16px;
