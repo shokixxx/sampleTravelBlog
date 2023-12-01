@@ -195,12 +195,20 @@ article {
 #footer .about li {
   font-size: 0.825rem;
   margin-bottom: 5px;
+  position: relative; /* 親要素としての相対位置を設定 */
+  padding-left: 1rem;
 }
 
 #footer .about ul li::before {
-  /* 右三角形の Unicode 文字 */
-  content: "\25B6";
-  margin-right: 3px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border: 0.35em solid transparent;
+  border-left: 0.7em solid black;
+  content: "";
 }
 
 #footer .menu li {
