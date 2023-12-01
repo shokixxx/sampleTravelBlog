@@ -7,7 +7,7 @@ html {
 body {
   color: #333;
   font-size: 1rem;
-  font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans", "Noto Sans JP", sans-serif;
 }
 
 img {
@@ -29,11 +29,6 @@ article {
 
 .readmore a {
   color: #333;
-}
-
-.readmore a:hover {
-  color: #333;
-  text-decoration: none;
 }
 
 .wrapper {
@@ -110,6 +105,11 @@ article {
   text-align: left;
 }
 
+.readmore a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
 #header {
   background-color: #fff;
   width: 100%;
@@ -130,9 +130,11 @@ article {
   justify-content: flex-start;
   align-items: center;
 }
+
 #navi a {
   color: #fff;
 }
+
 #navi li {
   font-size: 0.875rem;
   padding: 10px 60px 10px 0;
@@ -196,7 +198,7 @@ article {
 
 #footer .about ul li::before {
   /* 右三角形の Unicode 文字 */
-  content: '\25B6';
+  content: "\25B6";
   margin-right: 3px;
 }
 
@@ -210,32 +212,38 @@ article {
   text-align: center;
 }
 
-@media (min-width: 767px) {
+@media (width >= 767px) {
   .pickup {
     display: flex;
     justify-content: space-between;
     width: 100%;
   }
+
   .pickup article {
     width: 32%;
   }
+
   .media-query-flex {
     display: flex;
     justify-content: space-between;
   }
+
   #main {
     margin: 0;
     padding: 0;
     width: 65%;
   }
+
   #sidebar {
     width: 32%;
   }
+
   #footer .footer-flex-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
+
   #footer .about,
   #footer .menu,
   #footer .footer-content {

@@ -1,0 +1,15 @@
+{
+  "name": "sampletravelblog",
+  "version": "1.0.0",
+  "description": "下記デモサイトを参考に作成しました<br> https://code-jump.com/demo/html/blog/#",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "stylelint": "^15.11.0",
+    "stylelint-config-standard": "^34.0.0"
+  }
+}
