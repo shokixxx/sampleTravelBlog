@@ -193,6 +193,8 @@ article {
 }
 
 #footer .about li {
+  position: relative;
+  padding-left: 1rem;
   font-size: 0.825rem;
   margin-bottom: 5px;
   position: relative; /* 親要素としての相対位置を設定 */
