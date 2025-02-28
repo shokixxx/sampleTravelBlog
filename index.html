@@ -1,222 +1,267 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Blog</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!-- ヘッダー -->
-    <header id="header">
-      <h1 class="site-title wrapper">
-        <a href="#"><img src="images/logo.svg" alt="Travel Blog" /></a>
-      </h1>
-      <nav id="navi">
-        <ul class="wrapper">
-          <li><a href="#">NEW</a></li>
-          <li><a href="#">COLUMN</a></li>
-          <li><a href="#">SERIES</a></li>
-          <li><a href="#">Q&A</a></li>
-          <li><a href="#">CONTACT</a></li>
-        </ul>
-      </nav>
-    </header>
-    <!-- pickupコンテンツ -->
-    <div class="pickup wrapper">
-      <article>
-        <img src="images/pickup1.jpg" alt="pickup1" />
-        <h3>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</h3>
-        <div class="readmore">
-          <a href="#">READ MORE</a>
-        </div>
-      </article>
-      <article>
-        <img src="images/pickup2.jpg" alt="pickup2" />
-        <h3>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</h3>
-        <div class="readmore">
-          <a href="#">READ MORE</a>
-        </div>
-      </article>
-      <article>
-        <img src="images/pickup3.jpg" alt="pickup3" />
-        <h3>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</h3>
-        <div class="readmore">
-          <a href="#">READ MORE</a>
-        </div>
-      </article>
-    </div>
-    <!-- メインコンテンツ -->
-    <div class="media-query-flex wrapper">
-      <main id="main" class="wrapper">
-        <article>
-          <h2>
-            <a href="#" class="content">
-              タイトルテキストテキストテキストテキストテキスト
-            </a>
-          </h2>
-          <ul>
-            <li><a href="#" class="content">2020/01/01</a></li>
-            <li><a href="#" class="content">カテゴリ1</a></li>
-          </ul>
-          <img src="images/main1.jpg" alt="main1" />
-          <p>
-            本文テキストテキストテキストテキストテキストテキストテキストテキスト
-            テキストテキストテキストテキストテキストテキストテキストテキストテキスト
-            テキストテキストテキストテキストテキストテキストテキストテキストテキスト
-          </p>
-          <div class="readmore">
-            <a href="#">READ MORE</a>
-          </div>
-        </article>
-        <article>
-          <h2>
-            <a href="#" class="content">
-              タイトルテキストテキストテキストテキストテキスト
-            </a>
-          </h2>
-          <ul>
-            <li><a href="#" class="content">2020/01/01</a></li>
-            <li><a href="#" class="content">カテゴリ1</a></li>
-          </ul>
-          <img src="images/main2.jpg" alt="main2" />
-          <p>
-            本文テキストテキストテキストテキストテキストテキストテキストテキスト
-            テキストテキストテキストテキストテキストテキストテキストテキストテキスト
-            テキストテキストテキストテキストテキストテキストテキストテキストテキスト
-          </p>
-          <div class="readmore">
-            <a href="#">READ MORE</a>
-          </div>
-        </article>
-        <article>
-          <h2>
-            <a href="#" class="content">
-              タイトルテキストテキストテキストテキストテキスト
-            </a>
-          </h2>
-          <ul>
-            <li><a href="#" class="content">2020/01/01</a></li>
-            <li><a href="#" class="content">カテゴリ1</a></li>
-          </ul>
-          <img src="images/main3.jpg" alt="main3" />
-          <p>
-            本文テキストテキストテキストテキストテキストテキストテキストテキスト
-            テキストテキストテキストテキストテキストテキストテキストテキストテキスト
-            テキストテキストテキストテキストテキストテキストテキストテキストテキスト
-          </p>
-          <div class="readmore">
-            <a href="#">READ MORE</a>
-          </div>
-        </article>
-      </main>
-      <!-- 大画面用サイドコンテンツ -->
-      <div id="sidebar">
-        <!-- プロフィール -->
-        <section class="author wrapper">
-          <img src="images/author.jpg" alt="author" />
-          <h4 class="subtitle">Name Name</h4>
-          <p>
-            プロフィールテキストテキストテキストテキストテキストテキストテキスト
-            テキストテキストテキストテキストテキストテキストテキストテキストテキスト
-            テキストテキストテキストテキストテキストテキストテキストテキストテキスト
-          </p>
-        </section>
-        <!-- ランキング -->
-        <section class="ranking wrapper">
-          <h4 class="subtitle">Ranking</h4>
-          <article>
-            <a href="#">
-              <img src="images/ranking1.jpg" alt="ranking1" />
-              <p>タイトルテキストテキストテキストテキストテキストテキスト</p>
-            </a>
-          </article>
-          <article>
-            <a href="#">
-              <img src="images/ranking2.jpg" alt="ranking2" />
-              <p>タイトルテキストテキストテキストテキストテキストテキスト</p>
-            </a>
-          </article>
-          <article>
-            <a href="#">
-              <img src="images/ranking3.jpg" alt="ranking3" />
-              <p>タイトルテキストテキストテキストテキストテキストテキスト</p>
-            </a>
-          </article>
-        </section>
-        <!-- アーカイブ -->
-        <section class="archive wrapper">
-          <h4 class="subtitle">Archive</h4>
-          <div class="border-list">
-            <ul>
-              <a href="#"><li>XXXX年XX月(XX)</li></a>
-              <a href="#"><li>XXXX年XX月(XX)</li></a>
-              <a href="#"><li>XXXX年XX月(XX)</li></a>
-              <a href="#"><li>XXXX年XX月(XX)</li></a>
-              <a href="#"><li>XXXX年XX月(XX)</li></a>
-              <a href="#"><li>XXXX年XX月(XX)</li></a>
-              <a href="#"><li>XXXX年XX月(XX)</li></a>
-              <a href="#"><li>XXXX年XX月(XX)</li></a>
-              <a href="#"><li>XXXX年XX月(XX)</li></a>
-              <a href="#"><li>XXXX年XX月(XX)</li></a>
-              <a href="#"><li>XXXX年XX月(XX)</li></a>
-              <a href="#"><li>XXXX年XX月(XX)</li></a>
-              <a href="#"><li>XXXX年XX月(XX)</li></a>
-              <a href="#"><li>XXXX年XX月(XX)</li></a>
-              <a href="#"><li>XXXX年XX月(XX)</li></a>
-            </ul>
-          </div>
-        </section>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Blog</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet" />
+  <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- ヘッダー -->
+  <header id="header">
+    <h1 class="site-title wrapper">
+      <a href="#"><img src="images/logo.svg" alt="Travel Blog" /></a>
+    </h1>
+    <nav id="navi">
+      <ul class="wrapper">
+        <li><a href="#">NEW</a></li>
+        <li><a href="#">COLUMN</a></li>
+        <li><a href="#">SERIES</a></li>
+        <li><a href="#">Q&A</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- pickupコンテンツ -->
+  <div class="pickup wrapper">
+    <article>
+      <img src="images/pickup1.jpg" alt="pickup1" />
+      <h3>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</h3>
+      <div class="readmore">
+        <a href="#">READ MORE</a>
       </div>
-    </div>
-    <!--　フッター -->
-    <footer id="footer">
-      <div class="footer-flex-container wrapper">
-        <!-- About -->
-        <section class="about footer-content">
-          <h4 class="footer-title">About</h4>
-          <p>
-            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-          </p>
-          <ul>
-            <a href="#"><li>プロフィール詳細</li></a>
-            <a href="#"><li>お仕事の依頼</li></a>
-            <a href="#"><li>お問い合わせ</li></a>
-          </ul>
-        </section>
-        <!-- Menu -->
-        <section class="menu footer-content">
-          <h4 class="footer-title">Menu</h4>
-          <div class="border-list">
-            <ul>
-              <a href="#"><li>NEW</li></a>
-              <a href="#"><li>CATEGORY</li></a>
-              <a href="#"><li>COLUMN</li></a>
-              <a href="#"><li>SERIES</li></a>
-              <a href="#"><li>Q&A</li></a>
-            </ul>
-          </div>
-        </section>
-        <section class="footer-content">
-          <!-- SNS -->
-          <h4 class="footer-title">Twitter</h4>
-          <a href="https://x.com/X/status/1728404218007212122?s=20">
-            <p>Tweets by X</p>
+    </article>
+    <article>
+      <img src="images/pickup2.jpg" alt="pickup2" />
+      <h3>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</h3>
+      <div class="readmore">
+        <a href="#">READ MORE</a>
+      </div>
+    </article>
+    <article>
+      <img src="images/pickup3.jpg" alt="pickup3" />
+      <h3>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</h3>
+      <div class="readmore">
+        <a href="#">READ MORE</a>
+      </div>
+    </article>
+  </div>
+  <!-- メインコンテンツ -->
+  <div class="media-query-flex wrapper">
+    <main id="main" class="wrapper">
+      <article>
+        <h2>
+          <a href="#" class="content">
+            タイトルテキストテキストテキストテキストテキスト
           </a>
-        </section>
-      </div>
-      <p class="copyright">&copy; Travel &amp; Blog</p>
-    </footer>
-  </body>
+        </h2>
+        <ul>
+          <li><a href="#" class="content">2020/01/01</a></li>
+          <li><a href="#" class="content">カテゴリ1</a></li>
+        </ul>
+        <img src="images/main1.jpg" alt="main1" />
+        <p>
+          本文テキストテキストテキストテキストテキストテキストテキストテキスト
+          テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+          テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+        </p>
+        <div class="readmore">
+          <a href="#">READ MORE</a>
+        </div>
+      </article>
+      <article>
+        <h2>
+          <a href="#" class="content">
+            タイトルテキストテキストテキストテキストテキスト
+          </a>
+        </h2>
+        <ul>
+          <li><a href="#" class="content">2020/01/01</a></li>
+          <li><a href="#" class="content">カテゴリ1</a></li>
+        </ul>
+        <img src="images/main2.jpg" alt="main2" />
+        <p>
+          本文テキストテキストテキストテキストテキストテキストテキストテキスト
+          テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+          テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+        </p>
+        <div class="readmore">
+          <a href="#">READ MORE</a>
+        </div>
+      </article>
+      <article>
+        <h2>
+          <a href="#" class="content">
+            タイトルテキストテキストテキストテキストテキスト
+          </a>
+        </h2>
+        <ul>
+          <li><a href="#" class="content">2020/01/01</a></li>
+          <li><a href="#" class="content">カテゴリ1</a></li>
+        </ul>
+        <img src="images/main3.jpg" alt="main3" />
+        <p>
+          本文テキストテキストテキストテキストテキストテキストテキストテキスト
+          テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+          テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+        </p>
+        <div class="readmore">
+          <a href="#">READ MORE</a>
+        </div>
+      </article>
+    </main>
+    <!-- 大画面用サイドコンテンツ -->
+    <div id="sidebar">
+      <!-- プロフィール -->
+      <section class="author wrapper">
+        <img src="images/author.jpg" alt="author" />
+        <h4 class="subtitle">Name Name</h4>
+        <p>
+          プロフィールテキストテキストテキストテキストテキストテキストテキスト
+          テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+          テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+        </p>
+      </section>
+      <!-- ランキング -->
+      <section class="ranking wrapper">
+        <h4 class="subtitle">Ranking</h4>
+        <article>
+          <a href="#">
+            <img src="images/ranking1.jpg" alt="ranking1" />
+            <p>タイトルテキストテキストテキストテキストテキストテキスト</p>
+          </a>
+        </article>
+        <article>
+          <a href="#">
+            <img src="images/ranking2.jpg" alt="ranking2" />
+            <p>タイトルテキストテキストテキストテキストテキストテキスト</p>
+          </a>
+        </article>
+        <article>
+          <a href="#">
+            <img src="images/ranking3.jpg" alt="ranking3" />
+            <p>タイトルテキストテキストテキストテキストテキストテキスト</p>
+          </a>
+        </article>
+      </section>
+      <!-- アーカイブ -->
+      <section class="archive wrapper">
+        <h4 class="subtitle">Archive</h4>
+        <div class="border-list">
+          <ul>
+            <a href="#">
+              <li>XXXX年XX月(XX)</li>
+            </a>
+            <a href="#">
+              <li>XXXX年XX月(XX)</li>
+            </a>
+            <a href="#">
+              <li>XXXX年XX月(XX)</li>
+            </a>
+            <a href="#">
+              <li>XXXX年XX月(XX)</li>
+            </a>
+            <a href="#">
+              <li>XXXX年XX月(XX)</li>
+            </a>
+            <a href="#">
+              <li>XXXX年XX月(XX)</li>
+            </a>
+            <a href="#">
+              <li>XXXX年XX月(XX)</li>
+            </a>
+            <a href="#">
+              <li>XXXX年XX月(XX)</li>
+            </a>
+            <a href="#">
+              <li>XXXX年XX月(XX)</li>
+            </a>
+            <a href="#">
+              <li>XXXX年XX月(XX)</li>
+            </a>
+            <a href="#">
+              <li>XXXX年XX月(XX)</li>
+            </a>
+            <a href="#">
+              <li>XXXX年XX月(XX)</li>
+            </a>
+            <a href="#">
+              <li>XXXX年XX月(XX)</li>
+            </a>
+            <a href="#">
+              <li>XXXX年XX月(XX)</li>
+            </a>
+            <a href="#">
+              <li>XXXX年XX月(XX)</li>
+            </a>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </div>
+  <!--　フッター -->
+  <footer id="footer">
+    <div class="footer-flex-container wrapper">
+      <!-- About -->
+      <section class="about footer-content">
+        <h4 class="footer-title">About</h4>
+        <p>
+          テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+          テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+          テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+        </p>
+        <ul>
+          <a href="#">
+            <li>プロフィール詳細</li>
+          </a>
+          <a href="#">
+            <li>お仕事の依頼</li>
+          </a>
+          <a href="#">
+            <li>お問い合わせ</li>
+          </a>
+        </ul>
+      </section>
+      <!-- Menu -->
+      <section class="menu footer-content">
+        <h4 class="footer-title">Menu</h4>
+        <div class="border-list">
+          <ul>
+            <a href="#">
+              <li>NEW</li>
+            </a>
+            <a href="#">
+              <li>CATEGORY</li>
+            </a>
+            <a href="#">
+              <li>COLUMN</li>
+            </a>
+            <a href="#">
+              <li>SERIES</li>
+            </a>
+            <a href="#">
+              <li>Q&A</li>
+            </a>
+          </ul>
+        </div>
+      </section>
+      <section class="footer-content">
+        <!-- SNS -->
+        <h4 class="footer-title">Twitter</h4>
+        <a href="https://x.com/X/status/1728404218007212122?s=20">
+          <p>Tweets by X</p>
+        </a>
+      </section>
+    </div>
+    <p class="copyright">&copy; Travel &amp; Blog</p>
+  </footer>
+</body>
+
 </html>
