@@ -42,6 +42,7 @@ article {
 }
 
 .subtitle {
+  font-size: 1.125rem;
   margin: 0 0 30px;
   text-align: center;
 }
@@ -49,6 +50,11 @@ article {
 .pickup {
   padding-top: 150px;
   margin-bottom: 60px;
+}
+
+.pickup .article-title {
+  font-size: 1rem;
+  margin: 10px 0 15px;
 }
 
 .author {
@@ -146,6 +152,11 @@ article {
   text-decoration: none;
 }
 
+#main .article-title {
+  font-size: 1.5rem;
+  margin: 10px 0 15px;
+}
+
 #main ul {
   display: flex;
   padding: 0 0 10px;
@@ -160,6 +171,11 @@ article {
 #main p {
   padding: 10px 40px 30px;
   margin: 0;
+}
+
+#sidebar .article-title {
+  font-size: 0.875rem;
+  font-weight: normal;
 }
 
 #footer {
