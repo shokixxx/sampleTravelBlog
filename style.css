@@ -192,8 +192,8 @@ article {
   margin: 0;
 }
 
-#footer ul {
-  padding: 0;
+#footer .about-list {
+  margin: 20px 0;
 }
 
 #footer .footer-flex-container {
